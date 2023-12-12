@@ -1,22 +1,27 @@
-#content{
+#content
+{
     display: flex;
     justify-content: center;
     align-items: center;    
     min-height: 100vh;
-    /* height: 800px; */
-    background-color: gold;
+    /* height: 800px; */ 
+    background: url("bigcat.png");
+    background-size : cover;
 }
-#login_box {
+#login_box 
+{
     width: 260px;     
-    background-color: pink;
     border: 1px blue solid;
     border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
     box-shadow: 5px 5px 5px;
+    background: url("cat1.png");
+    margin-left: 1500px;
+    margin-bottom: 700px;
 }
-#btn {
+#btn 
+{
     box-shadow: 1px 1px 1px;
 }
-
