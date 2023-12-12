@@ -8,8 +8,6 @@ var loginBox;
 var id;
 var pw;
 
-document.write("<img src='cat.png'>");
-
 function login(){
     id=i.value;
     pw=p.value;
